@@ -1,4 +1,6 @@
 import React from 'react';  //これはブラウザとアプリ開発共通
 import ReactDOM from 'react-dom'; //これはブラウザ特化
 
-ReactDOM.render(<div>Sup React</div>, document.querySelector('.container'));
+import App from './components/app';
+
+ReactDOM.render(<App />, document.querySelector('.container'));
